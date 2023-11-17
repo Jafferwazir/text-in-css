@@ -1,0 +1,25 @@
+/* ########## Font Family ############# */
+
+/* h1{color: red;}
+
+body{font-family: Arial, Helvetica, sans-serif; }
+
+h2{font-family: 'Times New Roman', Times, serif;}
+
+p{font-family: cursive;}
+
+.p2{font-family: Georgia, 'Times New Roman', Times, serif;} */
+
+
+/* ########## Font Size ############# */
+/* ### In Pixels ### */
+/* h1{font-size: 50px;} */
+
+/* ### In Percentages ### */
+/* p{font-size: 200%;} */
+
+/* ### Default Values ### */
+
+/* .p3{font-size: x-large;} */
+
+p{font-size: 3em;}
