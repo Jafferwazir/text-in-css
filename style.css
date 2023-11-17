@@ -22,4 +22,194 @@ p{font-family: cursive;}
 
 /* .p3{font-size: x-large;} */
 
-p{font-size: 3em;}
+/* ### em ### */
+/* p{font-size: 4em;} */
+
+/* ########## Font Face ############# */
+/* 
+@font-face {
+    font-family: 'test';
+    src: url("./Fonts/Molle-Italic.ttf");
+}
+
+h1,p{
+    font-family: 'Test';
+    font-size: 3em;
+} */
+
+/* ########## Font Weight ############# */
+/* 
+p{
+    font-weight: bolder;
+}
+h1{
+    font-weight: 100;
+} */
+
+/* ########## Font Style ############# */
+
+/* #normal{
+    font-style: normal;
+}
+#italic{
+    font-style: italic;
+}
+#oblique{
+    font-style: oblique;
+} */
+
+/* ########## Text Transformation ############# */
+
+/* h2{
+    text-transform: uppercase;
+}
+h3{
+    text-transform: lowercase;
+}
+h4{
+    text-transform: capitalize;
+} */
+
+/* ########## Text Decoration ############# */
+
+/* #underline{
+    text-decoration: underline;
+}
+
+#overline{
+    text-decoration: overline;
+}
+
+#line-through{
+    text-decoration: line-through;
+}
+
+#blink{
+    text-decoration: blink ;
+} */
+
+/* ########## Line Height/Leading ############# */
+/* p{
+    line-height: 25px;
+} */
+
+/* ########## Letter Spacing/ Word Spacing ############# */
+/* h1{
+    word-spacing: 20px;
+/* }
+
+/* Letter Spacing */
+/* h1{
+    letter-spacing: 10px;
+}  */
+
+/* ########## Text Align ############# */
+
+/* h2{
+    text-align: center;
+}
+h3{
+    text-align: right;
+}
+h4{
+    text-align: left;
+}
+p{
+    text-align: justify;
+} */
+
+/* ########## Vertical Alignment ############# */
+
+/* img{
+    vertical-align: middle;
+} */
+
+/* ########## text Ident ############# */
+
+/* p{
+    text-indent: 300px;
+} */
+
+/* ########## Text Shadow ############# */
+
+/* h1{
+    font-size: 200px;
+    background-color: wheat ;
+    color: black;
+    text-shadow: 10px 18px 0px #ee4456;
+} */
+
+
+/* ########## First Letter or First Line ############# */
+
+/* p::first-letter{
+    color: red;
+
+}
+
+p::first-line{
+    color: blue;
+} */
+
+/* ########## Styling Links ############# */
+/* a:link{
+    color: green;
+}
+
+a:visited{
+    color: red;
+} */
+
+/* ########## Responding to user -->hover, active, focus ############# */
+
+/* input.btn:hover{
+    background-color: wheat;
+}
+
+input.btn:active{
+    background-color: red;
+} */
+
+/* input.btn:focus{
+    background-color: blue;
+} */
+
+/* input.textBox:focus{
+    background-color: black;
+    color: white;
+} */
+
+/* ########## Attributes Selectors ############# */
+
+/* Existence */
+/* h1[name]{
+    color: red;
+} */
+
+/* Equality */
+/* h1[name="hi"]{
+    color: red;
+} */
+
+/* Space */
+
+/* h1[name~=hi]{
+    color: red;
+} */
+
+/* PREFIX */
+/* 
+h1[name^=h]{
+    color: red;} */
+
+/* Substring */
+/* h1[name*="el"]{
+    color: red;
+} */
+
+
+/* Suffix (values end with a specific word */
+/* h1[name$="i"]{
+    color: red;
+} */
+
